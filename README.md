@@ -1,2 +1,2 @@
 # Frontend-Assignment
-demo website
+It contains both of Assigments. 
