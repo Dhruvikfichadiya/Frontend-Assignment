@@ -36,36 +36,8 @@ e.preventDefault()
 return false;
 }
 
+if (!expr.test(number.value)) {
+e.preventDefault()
+return false;
+}
 })
-
-
-
-
-// sign_up_btn.addEventListener("click", () => {
-//   container.classList.add("sign-up-mode");
-// });
-
-// sign_in_btn.addEventListener("click", () => {
-//   container.classList.remove("sign-up-mode");
-// });
-
-// function togglePasswordVisibility(passwordField, toggleButton) {
-//   const passwordInput = document.getElementById(passwordField);
-//   const toggleIcon = document.getElementById(toggleButton);
-
-//   toggleIcon.addEventListener("click", () => {
-//     if (passwordInput.type === "password") {
-//       passwordInput.type = "text";
-//       toggleIcon.classList.remove("fa-eye");
-//       toggleIcon.classList.add("fa-eye-slash");
-//     } else {
-//       passwordInput.type = "password";
-//       toggleIcon.classList.remove("fa-eye-slash");
-//       toggleIcon.classList.add("fa-eye");
-//     }
-//   });
-// }
-
-//   // Toggle password visibility
-//   togglePasswordVisibility("password", "togglePassword");
-//   togglePasswordVisibility("confirmPassword", "toggleConfirmPassword");
